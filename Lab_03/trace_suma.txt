@@ -1,0 +1,23 @@
+?- trace, suma(3, S).
+   Call: (10) suma(3, _3662)
+   Unify: (10) suma(3, _3662)
+   Call: (11) 3>1
+   Exit: (11) 3>1
+   Call: (11) _6488 is 3+ -1
+   Exit: (11) 2 is 3+ -1
+   Call: (11) suma(2, _7714)
+   Unify: (11) suma(2, _7714)
+   Call: (12) 2>1
+   Exit: (12) 2>1
+   Call: (12) _10170 is 2+ -1
+   Exit: (12) 1 is 2+ -1
+   Call: (12) suma(1, _11396)
+   Unify: (12) suma(1, 1)
+   Exit: (12) suma(1, 1)
+   Call: (12) _7714 is 2+1
+   Exit: (12) 3 is 2+1
+   Exit: (11) suma(2, 3)
+   Call: (11) _3662 is 3+3
+   Exit: (11) 6 is 3+3
+   Exit: (10) suma(3, 6)
+S = 6.

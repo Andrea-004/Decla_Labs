@@ -1,0 +1,59 @@
+Oración uno
+Si la información no es completa para oferentes y demandantes, hay una falla de mercado.
+
+P = Información incompleta para oferentes
+Q = Información incompleta para demandantes
+R = Falla de mercado
+
+Sujeto para P
+Oferentes
+Predicado para P
+Info incompleta para
+
+Sujeto para Q
+Demandantes
+Predicado para Q
+Info incompleta para
+
+Sujeto para R
+Mercado
+Predicado para R
+Tiene falla
+
+(P ^ Q) -> R
+
+Oración dos
+He pasado todas mis vacaciones en Grecia y Marruecos.
+
+P = He pasado todas mis vacaciones en Grecia
+Q = He pasado todas mis vacaciones en Marruecos
+
+Sujeto para P
+Yo
+Predicado para P
+He pasado mis vacaciones en Grecia
+
+Sujeto para Q
+Yo
+Predicado para Q
+He pasado todas mis vacaciones en Marruecos
+
+P ^ Q
+
+Oración tres
+La realidad supera a la ficción y él no puede creerlo.
+
+p = La realidad supera la ficción
+Q = Él puede creerlo
+
+Sujeto para P
+La realidad
+Predicado para P
+Supera la ficción
+
+Sujeto para Q
+Él
+Predicado para Q
+Puede creerlo
+
+P ^ -Q
